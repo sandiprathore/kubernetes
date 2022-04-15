@@ -396,7 +396,7 @@ DROP USER 'username'@'host';
 
 ##### Step 9. Port forwarding
 ```sh
-kubectl port-forward my-release-mysql-0 3306:3306 --address host
+kubectl port-forward my-release-mysql-0 3306:3306 --address <host>
  ```
  
 Output will be: now can connect with you mysql with other ubuntu terminal
